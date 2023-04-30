@@ -1666,6 +1666,12 @@ section:last-child,
   margin-bottom: 0;
 }
 
+@media (max-width: 767px) {
+  #banner .col-6 img {
+    display: block;
+    margin-top: -100px;
+  }
+}
 #banner p {
   font-size: 2em;
   font-weight: 10;
@@ -1680,7 +1686,7 @@ section:last-child,
   background: #353d40 url("images/bg02.jpg");
   border-bottom: solid 1px #272e31;
   padding: 45px 0 45px 0;
-  padding-top: 150px;
+  padding-top: 70px;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
   color: #a0a8ab;
 }
