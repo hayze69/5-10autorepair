@@ -1627,7 +1627,7 @@ section:last-child,
   left: 20;
   bottom: 35px;
   font-size: 3em;
-  font-family: "Pressroom";
+  font-family: "Pressroom" !important;
   font-weight: 100 !important;
 }
 
